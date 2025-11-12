@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 echo '🔄 Cloning repository...'
-                git branch: 'main', url: 'https://github.com/JAASWANTH07/react_weather_app.git'
+                git branch: 'master', url: 'https://github.com/JAASWANTH07/react_weather_app.git'
             }
         }
 
